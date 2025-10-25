@@ -35,11 +35,7 @@ It can be used for **traffic monitoring**, **speed violation detection**, and **
 
 3. The **distance** a vehicle travels (in pixels) between frames is calculated.
 
-4. Using a calibration factor (`METERS_PER_PIXEL`) and frame rate (`FPS`), the **speed (km/h)** is estimated:
-
-   [
-   \text{Speed (km/h)} = \frac{\text{Pixel Distance} \times \text{Meters Per Pixel}}{\text{Time (s)}} \times 3.6
-   ]
+4. Using a calibration factor (`METERS_PER_PIXEL`) and frame rate (`FPS`), the **speed (km/h)** is estimated.
 
 5. The detected speed is displayed on each bounding box and saved in the output video.
 
